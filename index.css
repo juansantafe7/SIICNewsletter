@@ -19,6 +19,15 @@ body{
 
 }
 
+.banner-2{
+
+    background-color:#0071aa;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 20px;
+
+}
+
 .section-suscr{
 
     display: flex;
@@ -28,6 +37,11 @@ body{
 
 }
 
+.secciones{
+
+    margin-top: 25px;
+
+}
 
 .box{
 
@@ -583,13 +597,27 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media screen and (min-width: 900px) {
 
+    .item-faq .question{
+
+        width: auto;
+        height: auto;
+
+    }
+
+    .item-faq .answer{
+
+        width: auto;
+        height: auto;
+        max-height: 150px; /* Ensure content overflows if needed */
+
+    }
     .share-button{
 
         margin-left: 95%;
 
     }
 
-    .icon-text2{
+      .icon-text2{
 
         margin-bottom: 5px;
 
@@ -653,6 +681,29 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media screen and (max-width: 900px) {
 
+    
+      .item-faq .question{
+
+        width: auto;
+        height: auto;
+
+    }
+
+    .item-faq .answer{
+
+        width: auto;
+        height: auto;
+        overflow: visible;
+
+    }
+
+ 
+    
+    .banner{
+
+        height: 70px;
+
+    }
     .container-b{
 
         width: 100%;
@@ -674,13 +725,21 @@ h1,h2,h3,h4,h4,h5,h6{
         margin: 0 !important;
         margin-top: 10px !important;
     }
-
+    
     .box {
-        margin: 0 !important; /* Remove the left margin for smaller screens */
-        width: 100%; /* Make the boxes take the full width of the screen */
-        padding: 10px;
-        max-width: 250px;
+       
+            margin: 0 !important; /* Remove the left margin for smaller screens */
+            width: 100%; /* Make the boxes take the full width of the screen */
+            padding: 10px;
+            max-width: 230px;
+            max-height: 330px;
         
+    }
+
+    .box-2, .o{
+
+        display: none;
+
     }
 
     .box ::placeholder{
