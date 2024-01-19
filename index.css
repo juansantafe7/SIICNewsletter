@@ -33,7 +33,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 65vh;
+    height: 55vh;
 
 }
 
@@ -48,9 +48,9 @@ body{
     background-color: var(--color-green);
     border-radius: 20px;
     box-shadow: 3px 7px 8px rgba(0, 0, 0, 0.3);
-    padding: 50px;
+    padding: 60px;
     text-align: center;
-    max-width: 500px;
+    max-width: 400px;
 
 }
 
@@ -68,6 +68,18 @@ body{
 
 }
 
+.autor{
+
+    font-size: 12;
+    font-style: italic;
+
+}
+
+.autorDestacado{
+
+    font-weight: bold;
+
+}
 
 *{
 
@@ -682,6 +694,19 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media screen and (max-width: 900px) {
 
+    .form{
+
+        border-radius: 5px;
+
+    }
+
+    .btn-suscrib{
+
+        padding: 10px !important;
+        border-radius: 3px !important;
+
+    }
+
       .item-faq .question{
 
         width: auto;
@@ -799,6 +824,7 @@ h1,h2,h3,h4,h4,h5,h6{
 
         height: 10em;
         max-width: 10em;
+        
 
     }
 
