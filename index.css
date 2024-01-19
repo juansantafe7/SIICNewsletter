@@ -95,7 +95,7 @@ html{
 .container-b{
 
     width: 80%;
-    margin: 10px auto;
+    margin: 5px auto;
 
 
 }
@@ -129,7 +129,8 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(43, 51, 122, .2);
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
     padding: 20px 20px 20px 80px;
     transition: .4s;
 
