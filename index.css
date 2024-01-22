@@ -19,6 +19,12 @@ body{
 
 }
 
+.banner{
+
+    height: 150px;
+
+}
+
 .banner-2{
 
     background-color:#0071aa;
@@ -33,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55vh;
+    height: 35vh;
 
 }
 
@@ -48,9 +54,9 @@ body{
     background-color: var(--color-green);
     border-radius: 20px;
     box-shadow: 3px 7px 8px rgba(0, 0, 0, 0.3);
-    padding: 60px;
+    padding: 20px;
     text-align: center;
-    max-width: 400px;
+    max-width: 350px;
 
 }
 
@@ -575,7 +581,7 @@ h3{
 
 p{
 
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
     line-height: 1.5em;
     font-size: 12px;
 
@@ -583,7 +589,7 @@ p{
 
 h1,h2,h3,h4,h4,h5,h6{
 
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
 
 }
 
@@ -694,6 +700,24 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media screen and (max-width: 900px) {
 
+    .parrafo-ver{
+
+        margin: 0 !important;
+
+    }
+
+    .banner-2{
+
+        height: 120px !important ;
+
+
+    }
+    .banner{
+
+        height: 85px !important ;
+
+
+    }
     .form{
 
         border-radius: 5px;
@@ -725,7 +749,7 @@ h1,h2,h3,h4,h4,h5,h6{
     
     .banner{
 
-        height: 70px;
+        height: 50px;
 
     }
     .container-b{
@@ -749,15 +773,49 @@ h1,h2,h3,h4,h4,h5,h6{
         margin: 0 !important;
         margin-top: 10px !important;
     }
-    
+    /* background-color: var(--color-green);
+    border-radius: 20px;
+    box-shadow: 3px 7px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    max-width: 350px; */
+ 
     .box {
        
-            margin: 0 !important; /* Remove the left margin for smaller screens */
-            width: 100%; /* Make the boxes take the full width of the screen */
+            margin: 0 !important; 
+            width: 100%; 
             padding: 10px;
-            max-width: 230px;
-            max-height: 330px;
+            max-width: 210px;
         
+    }
+
+    /* position: relative;
+    margin: 30px 0 20px;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+    font-size: 1rem;
+    height: 42px;
+    padding: 12px 15px;
+    width: 100%;
+    background-color: var(--color-white);
+    border-radius: 5px; */
+
+    .form{
+
+        margin: 10px 0 5px !important;
+        font-size: 12px !important;
+        padding: 10px 10px !important;
+        height: 29px !important;
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .form .btn-suscrib{
+
+        height: 29px !important;
+
     }
 
     .box-2, .o{
@@ -1119,11 +1177,12 @@ h1,h2,h3,h4,h4,h5,h6{
     margin: 30px 0 20px;
     box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.3);
     display: block;
-    font-size: 1.1rem;
+    font-size: 1rem;
     height: 42px;
-    padding: 12px 25px;
+    padding: 12px 15px;
     width: 100%;
     background-color: var(--color-white);
+    border-radius: 5px;
 
 }
 
@@ -1131,7 +1190,7 @@ h1,h2,h3,h4,h4,h5,h6{
 
     background-color: var(--color-medium-green);
     border: 0;
-    border-radius: 1px;
+    border-radius: 3px;
     color: var(--color-white);
     font-size: 1.1rem;
     height: 42px;

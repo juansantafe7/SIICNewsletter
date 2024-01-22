@@ -68,7 +68,7 @@
 </tr>
 
 <tr><td>
-  <p style="text-align: center;"><a href="https://www.ejemplo.com/boletin-en-linea" target="_blank">Ver este mail como página web</a></p>
+  <p style="text-align: center; margin-top: 5px;margin-bottom: 5px;" class="parrafo-ver"><a href="https://www.ejemplo.com/boletin-en-linea" target="_blank">Ver este mail como página web</a></p>
 
 </td></tr>
 
@@ -106,19 +106,17 @@
       <section class="section-suscr">
   
         <div class="box">
-
-          <h3>Suscribete a nuestro boletín</h3>
-          <p>Nuestro boletín semanal le brinda los últimos y más importantes
-            acontecimientos del ámbito de salud
-          </p>
-          <div class="form">
-              
-            <input type="text" class="input" placeholder="Ingrese su email">
-            <button class="btn-suscrib">Suscribirse</button>  
-
-          </div>
-
+          <h3>Suscríbete a nuestro boletín</h3>
+          <p>Nuestro boletín semanal te brinda los últimos y más importantes acontecimientos en el ámbito de la salud.</p>
+          
+          <form action="procesar_suscripcion.php" method="post">
+            <div class="form">
+              <input type="email" class="input" placeholder="Ingrese su email" name="email" required>
+              <button type="submit" class="btn-suscrib">Suscribirse</button>
+            </div>
+          </form>
         </div>
+        
         <div class="o"><span style="font-size: 24px;display: flex;justify-content: space-between;align-items: center;margin-left: 40px;font-family: Rubik Mono One;"><strong>o</strong></span></div>
         <div class="box box-2" style="margin-left: 40px;">
 
@@ -127,7 +125,7 @@
           </p>
           <div class="form">
               
-          <h3>Mensaje a SIIC</h3>
+          <h3 style="font-size: 15px;">Mensaje a SIIC</h3>
 
           </div>
 
@@ -972,8 +970,8 @@
 
             <div class="answer">
 
-              <p style="width: auto;max-height: 350px;">Introduccion: <br> Los microsomas son la fuente de glucosa-6-fosfatasa. La manosa-6-fosfato es ...
-                <br> Lectura recomendada:
+              <p style="width: auto;max-height: 350px;"> <u>Introduccion:</u>  <br> Los microsomas son la fuente de glucosa-6-fosfatasa. La manosa-6-fosfato es ...
+                <br> <u>Lectura recomendada:</u> 
                 <br> <a href="">Efecto de extractos algales sobre la actividad de la glucosa-6-fosfatasa presente en microsomas de hígado de ratas</a> 
                 <br> <i>Sociedad Iberoamericana de Información Científica</i><span>R</span></p>
 
@@ -992,8 +990,8 @@
 
             <div class="answer">
 
-              <p style="width: auto;max-height: 350px;">Introduccion: <br>El virus herpes simple 1 (VHS-1) es frecuente en personas ...
-                <br> Lectura recomendada:
+              <p style="width: auto;max-height: 350px;"><u>Introduccion:</u> <br>El virus herpes simple 1 (VHS-1) es frecuente en personas ...
+                <br><u>Lectura recomendada:</u> 
                 <br> <a href="">Enfoque de la encefalitis aguda infecciosa: impacto en la discapacidad y la mortalidad</a> 
                 <br> <i>Sociedad Iberoamericana de Información Científica</i><span>R</span></p>
 
@@ -1012,8 +1010,8 @@
 
             <div class="answer">
 
-              <p style="width: auto;max-height: 350px;">Introduccion: <br> Se describe el primer perfil epidemiológico de la viruela símica ...
-                <br> Lectura recomendada:
+              <p style="width: auto;max-height: 350px;"><u>Introduccion:</u><br> Se describe el primer perfil epidemiológico de la viruela símica ...
+                <br> <u>Lectura recomendada:</u> 
                 <br> <a href="">Vigilancia epidemiológica de la viruela símica</a> 
                 <br> <i>Sociedad Iberoamericana de Información Científica</i><span>R</span></p>
 
@@ -1032,8 +1030,8 @@
 
             <div class="answer">
 
-              <p style="width: auto;max-height: 350px;">Introduccion: <br>El tromboembolismo venoso constituye una complicación asociada con la artroplastia ...
-                <br> Lectura recomendada:
+              <p style="width: auto;max-height: 350px;"><u>Introduccion:</u> <br>El tromboembolismo venoso constituye una complicación asociada con la artroplastia ...
+                <br> <u>Lectura recomendada:</u> 
                 <br> <a href="">Tromboprofilaxis con Rivaroxabán, Dabigatrán y Apixabán en Pacientes con Artroplastia de Cadera y Rodilla</a> 
                 <br> <i>Sociedad Iberoamericana de Información Científica</i><span>R</span></p>
 
