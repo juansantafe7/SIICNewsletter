@@ -299,7 +299,7 @@ html{
 
     width: auto; 
     height: auto;
-    object-fit: cover;
+    object-fit: contain !important;
 
 }
 
@@ -312,7 +312,9 @@ html{
 .card-image2{
 
     display: flex;
-    padding: 5px;
+    width: auto; 
+    height: auto;
+    object-fit: cover !important;
     
 }
 
@@ -1011,7 +1013,7 @@ h1,h2,h3,h4,h4,h5,h6{
 
         max-height: 120px;
         max-width: 120px;
-        
+        object-fit: contain;                
 
     }
 
