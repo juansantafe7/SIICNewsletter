@@ -43,6 +43,8 @@ body{
     align-items: center;
     justify-content: center;
     height: 35vh;
+    margin-bottom: 0px !important;
+    margin-top: 10px;
 
 }
 
@@ -82,6 +84,7 @@ body{
 
     box-shadow: 3px 7px 8px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    margin-top: 0px !important;
 
 }
 
@@ -130,7 +133,7 @@ html{
 .container-b{
 
     margin: 1rem auto;
-    width: 85%;
+    width: 70%;
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
@@ -188,6 +191,8 @@ html{
     font-size: 1rem;
     cursor: pointer;
     transition: .4s;
+    max-width: 15px;
+    max-height: 30px;
 
 }
 
@@ -233,10 +238,15 @@ html{
 
 }
 
+.ultimo-art{
+
+    margin-bottom: -5px !important;
+
+}
 
 .container2{
 
-    width: 80%;
+    width: 65%;
     margin: 1rem auto;
     display: flex;
     justify-content: flex-start;
@@ -281,6 +291,7 @@ html{
     align-items: center;
     border-radius: 0px;
     cursor: pointer;
+    max-height: 30vh;
 
 }
 
@@ -332,6 +343,7 @@ img[src=""] + [alt]:before {
     padding-left: 1.5rem;
     background-color: #fff;
     text-overflow: ellipsis;
+    border-left: 0.5px solid rgb(207, 205, 205);
 
 }  
 
@@ -765,6 +777,7 @@ h1,h2,h3,h4,h4,h5,h6{
     .pie2 p{
 
         padding: 20px 150px !important;
+        margin-top: 0px !important;
 
     }
 
@@ -774,11 +787,29 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media screen and (max-width: 900px) {
 
+    .tca{
+
+        width: 10.5% !important;
+
+    }
+    .container2{
+
+        width: 80%;
+
+    }
 
 
     .encabezado-art{
 
-        font-size: 14px !important;
+        font-size: 13px !important;
+        margin-left: 10% !important;
+
+    }
+
+    .encabezado-margen{
+
+        font-size: 12px !important;
+        margin-left: 52% !important;
 
     }
 
@@ -851,9 +882,10 @@ h1,h2,h3,h4,h4,h5,h6{
         justify-content: center;
         flex-direction: column;
         height: 100%;
-        margin-bottom: 15px;
-        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-top: 15px !important;
     }
+
 
     .section-suscr span{
 
@@ -872,8 +904,8 @@ h1,h2,h3,h4,h4,h5,h6{
             margin: auto !important; 
             width: 100%; 
             padding: 10px;
-            max-width: 210px;
-            height: 100px !important;
+            max-width: 310px;
+            height: 110px !important;
         
     }
 
@@ -938,7 +970,7 @@ h1,h2,h3,h4,h4,h5,h6{
     }
     h3{
 
-        font-size: 13px;
+        font-size: 14px;
 
     }
     .btn-sub{
@@ -977,8 +1009,8 @@ h1,h2,h3,h4,h4,h5,h6{
 
     .card-image2 img{
 
-        height: 10em;
-        max-width: 10em;
+        max-height: 120px;
+        max-width: 120px;
         
 
     }
