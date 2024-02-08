@@ -24,11 +24,13 @@ body{
     width: 100%; 
     display: flex; 
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+     
   }
   .card-image img {
     max-width: 100%; 
-    height: auto; 
+    height: auto;
+    
   }
   .card-image img:nth-child(1) {
     order: 1; 
@@ -37,6 +39,25 @@ body{
     order: 2; 
   }
 
+.card-image-movil{
+
+    height: auto; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+
+}
+.card-image-movil img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  .card-image-movil img:nth-child(1) {
+    order: 1; 
+  }
+  .card-image-movil img:nth-child(2) {
+    order: 2; 
+  }
 
 
 .banner{
@@ -319,7 +340,7 @@ html{
     align-items: center;
     border-radius: 0px;
     cursor: pointer;
-    max-height: 30vh;
+    max-height: 100% !important;
 
 }
 
@@ -334,6 +355,7 @@ html{
 .myImage{
 
     max-width: 100%;
+
 
 }
 
