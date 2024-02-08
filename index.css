@@ -722,6 +722,9 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media screen and (min-width: 900px) {
 
+
+
+
     .box form button{
 
         width: 40% !important;
@@ -848,6 +851,7 @@ h1,h2,h3,h4,h4,h5,h6{
     .form2{
 
         width: 73% !important;
+        border-radius: 20px;
     
     }
 
@@ -992,7 +996,7 @@ h1,h2,h3,h4,h4,h5,h6{
             width: 100%; 
             padding: 10px;
             max-width: 250px;
-            height: 90px !important;
+            height: 103px !important;
             display: flex;
             
         
